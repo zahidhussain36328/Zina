@@ -2,6 +2,7 @@
 $("#hamburger").click(function(event) {
     event.preventDefault();
     $("#nav").addClass("showNav");
+    $("#mobileMenu").show();
     var winHeight = $(window).outerHeight();
     // Set the window height of the mobile menu when engaged!
     $('#menuWrapper').css('height',winHeight + 'px');
@@ -10,6 +11,8 @@ $("#hamburger").click(function(event) {
 $("#close").click(function(event) {
     event.preventDefault();
     $("#nav").removeClass("showNav");
+    $("#mobileMenu").hide();
+
     // Set the window height of the mobile menu when not engaged!
     $('#menuWrapper').css('height','auto');
 });

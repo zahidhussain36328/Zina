@@ -593,8 +593,7 @@ header#nav.showNav #close {
 header#nav ul:first-child {	
 	width:96%;
 	padding: 0 2%;
-	float: left;
-	display:block;
+	float: left; 
 }
 	
 header#nav ul li {

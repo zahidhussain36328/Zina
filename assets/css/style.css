@@ -175,10 +175,12 @@ body {
     left: 0;
     right: 0;
     margin: 0 auto;
-    z-index: 1;
+    z-index: 100;
     top: -56px;
 }
-
+#customToggle{
+     cursor: pointer;
+}
 .banner-wrap {
     min-height: 85vh;
     background-image: url('../images/banner.jpg');
@@ -334,7 +336,22 @@ body {
     border-bottom: 1px solid;
     ;
 }
-
+@media screen and (max-width:992px) {
+    .carousel-item {
+        padding: 20px;
+        height: 330px;
+        background-position: bottom center;
+    }
+    #slider_sec{
+        margin-top: 4rem;
+    }
+    .zina_house_bg , .our-values-bg{ 
+        height: 300px;
+    }
+    .pasta_heading {
+        font-size: 29px;
+    }
+}
 
 @media screen and (max-width:767px) {
     .carousel-item {
@@ -382,7 +399,7 @@ body {
 
 }
 
-@media screen and (max-width:992px) {}
+
 
 @media screen and (max-width: 362px) {
     .carousel-item {
