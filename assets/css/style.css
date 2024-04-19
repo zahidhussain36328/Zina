@@ -1,0 +1,393 @@
+/* theme developed by zahid hussain
+    whatsapp: +923025788489
+*/
+@font-face {
+    font-family: 'Ananda';
+    src: url('../Ananda/Ananda.ttf') format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --color-primary: #5c16c5;
+    --bg-red: #fe0000;
+    --bg-green: #5bb42d;
+    --bg-dark-blue: #0051c0;
+    --bg-light-blue: #f0f8ff;
+    --input-bg: #f0f0f0;
+    --text-dark-blue: #0051c0;
+    --text-light-gray: #7c7c7c;
+    --text-dark-gray: #4c5361;
+    --text-white: #fff;
+    --text-red: #fe0000;
+    --text-green: #59b815;
+    --text-musterd: #d58700;
+
+}
+
+.bg-red {
+    background-color: var(--bg-red) !important;
+}
+
+.bg-color-dark-blue {
+    background-color: var(--bg-dark-blue) !important;
+}
+
+.bg-color-light-blue {
+    background-color: var(--bg-light-blue) !important;
+}
+
+.input-bg {
+    background-color: var(--input-bg);
+}
+
+.text-dark-blue {
+    color: var(--text-dark-blue) !important;
+}
+
+.text-red {
+    color: var(--text-red) !important;
+}
+
+.text-musterd {
+    color: var(--text-musterd) !important;
+}
+
+.text-green {
+    color: var(--text-green) !important;
+}
+
+.text-light-gray {
+    color: var(--text-light-gray) !important;
+}
+
+.text-dark-gray {
+    color: var(--text-dark-gray) !important;
+}
+
+.text-white {
+    color: var(--text-white) !important;
+}
+
+.border-right {
+    border-right: 1px solid #ededed !important;
+
+}
+
+.bg-med-blue {
+    background: #dbedff;
+}
+
+.border-purple {
+    border-color: var(--bg-purple) !important;
+}
+
+.btn-outline-primary {
+    border-color: var(--bg-dark-blue) !important;
+
+}
+
+.btn-outline-primary:hover {
+    border-color: var(--bg-dark-blue) !important;
+    background-color: var(--bg-dark-blue) !important;
+    color: var(--text-white) !important;
+}
+
+.btn-success {
+    background-color: var(--bg-green) !important;
+    border-color: var(--bg-green) !important;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    ::-webkit-scrollbar {
+        width: 2px;
+        height: .5rem;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: var(--bg-light-blue);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--bg-dark-blue);
+        border-radius: 4px
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: var(--bg-dark-blue);
+    }
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer !important;
+
+}
+
+h1,
+h2,
+h3,
+p,
+div {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    position: relative;
+    background-color: var(--bs-tertiary-bg);
+}
+
+/* start css */
+.textAnanda {
+    font-family: 'Ananda';
+}
+
+.brand-logo {
+    width: 30px;
+}
+
+.center_logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+    top: -56px;
+}
+
+.banner-wrap {
+    min-height: 85vh;
+    background-image: url('../images/banner.jpg');
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-wrap .title {
+    font-size: 82px;
+    font-family: 'Futura', sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+    line-height: 93px;
+}
+
+.banner-wrap p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #fe0000 !important;
+    opacity: 1;
+    font-weight: bold !important;
+}
+
+.nav-link {
+    color: #000;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    background: #ffffffd1;
+    padding: 2px 7px;
+}
+
+.address_info p {
+    line-height: 1;
+}
+
+.address_info {
+    font-size: 12px;
+}
+
+.searchbar {
+    font-size: 12px;
+}
+
+.red_logo_bar {
+    padding: 12px 0;
+}
+
+.carousel-item {
+    background-image: url('../images/slider.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.btn-primary {
+    background-color: #d58700;
+}
+
+.btn-primary:hover {
+    background-color: #d58700;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 2%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: #5bb42d;
+    width: 2rem;
+    height: 5rem;
+}
+
+.zina_house_bg {
+    background-image: url('../images/zina_house_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.Rush_Removal img {
+    position: absolute;
+    right: -40px;
+    bottom: 0;
+    top: 10px;
+}
+
+.our-values-bg {
+    background-image: url('../images/our-values-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.long_text {
+    padding: 0 45px 0 0px;
+    font-size: 22px;
+}
+
+.pasta_heading {
+    font-size: 39px;
+}
+
+.footer_social_media_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.footer_social_media_item_fb {
+    background-color: #3d9af8;
+}
+
+.footer_social_media_item_twt {
+    background-color: red;
+}
+
+.footer_social_media_item_inst {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+
+}
+
+.footer_social_media_link_icone {
+    color: #fff;
+}
+
+.footer_border {
+    border-top: 1px solid;
+    ;
+    border-bottom: 1px solid;
+    ;
+}
+
+
+@media screen and (max-width:767px) {
+    .carousel-item {
+        padding: 20px;
+        height: 330px;
+        background-position: bottom center;
+    }
+
+    .carousel-item h2 {
+        font-size: 18px;
+    }
+
+    .carousel-item h1 {
+        font-size: 20px;
+    }
+
+    .carousel-item p {
+        font-size: 12px;
+    }
+
+    .zina_house_bg {
+        height: 220px;
+    }
+
+    .text_italic {
+        font-size: 22px;
+    }
+
+    .our-values-bg {
+        height: 200px;
+    }
+
+    .long_text {
+        padding: 0;
+    }
+
+    .pasta_heading {
+        font-size: 24px;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 4%;
+    }
+
+}
+
+@media screen and (max-width:992px) {}
+
+@media screen and (max-width: 362px) {
+    .carousel-item {
+        padding: 20px;
+        height: 330px;
+        background-position: bottom center;
+    }
+}
