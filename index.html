@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zina</title>
+        <meta name="description"
+            content="DISCOVER OUR DELICIOUS RECIPES WITH TOMATOES">
+        <!-- font aweasome -->
+        <link rel="stylesheet" href="./assets/css/font-all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/header.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+        <link rel="shortcut icon" href="./assets/images/favicon.png"
+            type="image/x-icon">
+    </head>
+    <body class="bg-body">
+        <!-- phone navbar -->
+        <div class="address_info d-lg-block d-none py-lg-3 py-2">
+            <div class="container d-flex justify-content-end">
+                <div
+                    class="col-md-4 col-12 d-flex justify-content-lg-end justify-content-between gap-3">
+                    <div class="phone-box d-flex gap-2 align-items-center">
+                        <img src="./assets/icons/phone.png" class="img-fluid"
+                            alt="phone">
+                        <div>
+                            <p class="mb-0 fw-bold">Phone: </p>
+                            <a href="tel:+88 669 658 6586"
+                                class="d-block text-dark">+88 669 658 6586</a>
+                        </div>
+                    </div>
+                    <div class="phone-box d-flex gap-2 align-items-center">
+                        <img src="./assets/icons/address.png" class="img-fluid"
+                            alt="address">
+                        <div>
+                            <p class="mb-0 fw-bold">Location: </p>
+                            <a href="#" class="d-block text-dark">ur location
+                                street here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header id="nav" class="d-lg-none d-block">
+            <div class="contained">
+                <div id="logo">
+                    <h1><a href="#"><img src="./assets/images/zina-logo.png"
+                                class="img-fluid mobile_logo"
+                                alt="zina-logo"></a></h1>
+                </div>
+                <div class="container_nav">
+                    <div
+                        id="hamburger"><span></span><span></span><span></span></div>
+                    <div id="close"><span></span></div>
+                    <div id="menuWrapper">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="#slider_sec">accueil</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" id="#zina_house">La Maison ZINA
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#zinaProducts">Nos Produits
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page"
+                                    href="#ourValues">Nos valeurs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page"
+                                    href="#ourNews">Actualités</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page"
+                                    href="#OUR_RECIPES">Recettes </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page"
+                                    href="#contact">contact</a>
+                            </li>
+                            <li>
+                                <!-- phone navbar -->
+                                <div class="address_info py-lg-3 py-2">
+                                    <div
+                                        class=" text-light-gray d-flex justify-content-end">
+                                        <div
+                                            class="col-md-4 col-12 d-flex justify-content-lg-end justify-content-between gap-3">
+                                            <div
+                                                class="phone-box d-flex gap-2 align-items-center">
+                                                <img
+                                                    src="./assets/icons/phone.png"
+                                                    class="img-fluid"
+                                                    alt="phone">
+                                                <div>
+                                                    <p
+                                                        class="mb-0 fw-bold">Phone:
+                                                    </p>
+                                                    <a
+                                                        href="tel:+88 669 658 6586"
+                                                        class="d-block text-light-gray">+88
+                                                        669 658 6586</a>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="phone-box d-flex gap-2 align-items-center">
+                                                <img
+                                                    src="./assets/icons/address.png"
+                                                    class="img-fluid"
+                                                    alt="address">
+                                                <div>
+                                                    <p
+                                                        class="mb-0 fw-bold">Location:
+                                                    </p>
+                                                    <a href="#"
+                                                        class="d-block text-light-gray">ur
+                                                        location
+                                                        street here</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- red navbar -->
+        <div class="red_logo_bar bg-red d-lg-block d-none">
+            <div class="container">
+                <div
+                    class="red_bar d-flex justify-content-between align-items-center position-relative">
+                    <!-- <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> -->
+                    <i class="fa-solid fa-bars fs-5 text-white"></i>
+                    <img src="./assets/images/zina-logo.png"
+                        class="img-fluid center_logo" alt="zina-logo">
+                    <div
+                        class="searchbar text-uppercase text-white d-flex justify-content-end gap-3">
+                        <p class="mb-0">zina Professionnel</p>
+                        <p class="mb-0">fr <span class="ms-2"><img
+                                    src="./assets/icons/search.png"
+                                    class="img-fluid" alt="search"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-custom mt-4">
+            <div class="container-fluid mx-lg-4">
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="#slider_sec">accueil</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="#zina_house">La Maison ZINA
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ourProduct">Nos Produits
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page"
+                                href="#ourValues">Nos valeurs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page"
+                                href="#ourNews">Actualités</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page"
+                                href="#OUR_RECIPES">Recettes </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page"
+                                href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="slider_sec" class="slider_sec">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div
+                        class="carousel-item text-center text-white d-flex align-items-center justify-content-center active">
+                        <div>
+                            <h2 class="fw-bold">TAKES PRACTICE</h2>
+                            <h1 class="fw-bold">SUPERIOR OF EXCELLENCE</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry. Lorem Ipsum has <br>
+                                been the industry's standard dummy text ever
+                                since the 1500s, </p>
+                            <button
+                                class="btn btn-primary px-lg-4 px-3 rounded-pill border-0">CONTACT
+                                US</button>
+                        </div>
+                    </div>
+                    <div
+                        class="carousel-item text-center text-white d-flex align-items-center justify-content-center ">
+                        <div>
+                            <h2 class="fw-bold text-uppercase">TAKES
+                                PRACTICE</h2>
+                            <h1 class="fw-bold text-uppercase">Practice makes
+                                perfect</h1>
+                            <p>the pinnacle of excellence. Lorem Ipsum remains
+                                the industry's standard dummy text, unchanged
+                                since the 1500s. </p>
+                            <button
+                                class="btn btn-primary px-lg-4 px-3 rounded-pill border-0">ABOUT
+                                US</button>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- zina house section start -->
+        <section id="zina_house">
+            <h2 class="text-red fw-bold my-lg-5 my-3 text-center">LA MAISON ZINA
+            </h2>
+            <div
+                class="zina_house_bg d-flex align-items-center justify-content-center">
+
+                <div class="container text-center  ">
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-6 d-flex align-items-center ps-lg-5">
+                            <div class="ps-lg-3">
+                                <h1
+                                    class="text_italic textAnanda text-musterd mb-3">
+                                    La tomate <br> qui nous parle...
+                                </h1>
+                                <button
+                                    class="btn btn-success px-lg-4 px-3 rounded-3 py-2 border-0">Savoir
+                                    plus </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our product -->
+        <section id="ourProduct" class="py-lg-5 py-3">
+            <div class="container">
+                <p class="text-center fw-bold mb-lg-5">Lorem Ipsum is simply
+                    dummy text of the printing and typesetting industry. <br>
+                    Lorem Ipsum has been the industry's standard</p>
+                <div class="row">
+                    <div
+                        class="col-md-4  d-flex align-items-center justify-content-center text-end">
+                        <div>
+                            <div class="tree_planting mb-lg-5 mb-3">
+                                <h6 class="fw-bold">Tree Planting </h6>
+                                <p>Lorem Ipsum is simply dummy text <br>
+                                    of the printing and typesetting <br>
+                                    industry. Lorem Ipsum </p>
+                            </div>
+                            <div class="Rush_Removal position-relative">
+                                <h6 class="fw-bold">Rush Removal</h6>
+                                <p>Lorem Ipsum is simply dummy text <br>
+                                    of the printing and typesetting <br>
+                                    industry. Lorem Ipsum </p>
+                                <img src="./assets/icons/light.png"
+                                    class="img-fluid" alt="Rush Removal">
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-4 d-flex align-items-center justify-content-center mb-lg-0 mb-3">
+                        <div>
+                            <img src="./assets/images/product_zina.png"
+                                class="img-fluid product_img"
+                                alt="product_zina">
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-4 d-flex align-items-center justify-content-center text-start">
+                        <div>
+                            <div class="LandScapingDesign mb-lg-5 mb-3">
+                                <h6 class="fw-bold">Land Scaping Design</h6>
+                                <p>Lorem Ipsum is simply dummy text <br>
+                                    of the printing and typesetting <br>
+                                    industry. Lorem Ipsum </p>
+                            </div>
+                            <div class="Planting_Flower">
+                                <h6 class="fw-bold">Planting Flower </h6>
+                                <p>Lorem Ipsum is simply dummy text <br>
+                                    of the printing and typesetting <br>
+                                    industry. Lorem Ipsum </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our values section start -->
+        <section id="ourValues">
+            <h2 class="text-red fw-bold my-lg-5 my-3 text-center">Nos
+                tomates</h2>
+            <div
+                class="our-values-bg d-flex align-items-center justify-content-center">
+
+                <div class="container text-center  ">
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div
+                            class="col-md-8 col-12 d-flex align-items-center justify-content-lg-start justify-content-center">
+                            <div class>
+                                <h1 class="text_italic fw-bold text-white ">
+                                    NOS TOMATES PELÉES <br> ZÉRO RÉSIDU DE
+                                    PESTICIDES
+                                </h1>
+                                <h2 class="fw-bold mb-3 textAnanda">Un voyage
+                                    vers
+                                    l’excellence</h2>
+                                <button
+                                    class="btn btn-danger px-lg-4 px-3 rounded-3 py-2 border-0">Savoir
+                                    plus </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- zina products -->
+        <section id="zinaProducts" class=" py-lg-5 py-3">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-lg-6 d-flex align-items-center justify-content-center ">
+                        <div class="px-lg-5">
+                            <p
+                                class="fw-bold text-center mb-0 textAnanda">Conserves
+                                de
+                                tomates et sauces tomates tunisiennes</p>
+                            <h1 class="text-red text-center fw-bold">LES
+                                PRODUITS ZINA</h1>
+                            <p class="text-success text-center textAnanda">Une
+                                tradition de
+                                qualité et de passion</p>
+                            <p class="text-justify">Depuis 120 ans, nous
+                                consacrons tous nos efforts et
+                                notre passion à la création des meilleures
+                                conserves de tomates italiennes pour votre
+                                cuisine.
+                                Découvrez l’ensemble des produits Mutti : pulpe
+                                de
+                                tomates, purée de tomates, tomates pelées et
+                                concentré de tomates et comment choisir les
+                                mieux adaptés à vos préparations culinaires
+                                !</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <img src="./assets/images/zina3cane.png"
+                            class="img-fluid" alt="zinaProducts">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- news section start -->
+        <section id="ourNews" class="py-lg-5 py-3">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-md-6 d-flex align-items-center justify-content-end  mb-lg-0 mb-3">
+                        <img src="./assets/images/Calque.png" class="img-fluid"
+                            alt="Calque">
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="category textAnanda text-red">Actualités</h5>
+                        <h5
+                            class="date text-red fw-bold mb-lg-4 ">06/04/2024</h5>
+                        <h3 class="title text-red fw-bold mb-3">CÉLÉBRONS LA
+                            TOMATE LE 6 AVRIL </h3>
+                        <p class="text-justify long_text">La journée mondiale de
+                            la tomate célèbre l’un des
+                            fruits les plus polyvalents et appréciés dans le
+                            monde. Une occasion spéciale qui permet de
+                            mettre à l’honneur les multiples qualités de la
+                            tomate, qu’il s’agisse de son importance culinaire,
+                            nutritionnelle ou culturelle. Depuis plus de 120
+                            ans,
+                            Mutti cultive et célèbre la tomate avec passion,
+                            pour offrir des produits de qualité qui capturent
+                            l’essence même de ce fruit emblématique de la
+                            cuisine italienne.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- OUR RECIPES section start -->
+        <section id="OUR_RECIPES" class="py-lg-5 py-3 ">
+            <div class="container">
+                <h2 class="fw-bold text-red text-center  pasta_heading">
+                    NOS RECETTES AVEC DES TOMATES 100% TUNISIENNES
+                </h2>
+                <img src="./assets/images/pasta.png" class="w-100 img-fluid"
+                    alt="pasta">
+                <div class="row my-3">
+                    <div
+                        class="col-md-4 mb-3 d-flex align-items-center justify-content-center">
+                        <img src="./assets/images/receipe1.png"
+                            class="img-fluid " alt="receipe1">
+                    </div>
+                    <div
+                        class="col-md-4 mb-3 d-flex align-items-center justify-content-center">
+                        <img src="./assets/images/receipe2.png"
+                            class="img-fluid " alt="receipe2">
+                    </div>
+                    <div
+                        class="col-md-4 mb-3 d-flex align-items-center justify-content-center">
+                        <img src="./assets/images/receipe3.png"
+                            class="img-fluid " alt="receipe3.png">
+                    </div>
+                </div>
+                <h2 class="fw-bold text-red text-center  pasta_heading">
+                    DÉCOUVRIR NOS DÉLICIEUSES RECETTES AVEC DES TOMATES
+                </h2>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer id="contact" class>
+            <div class="container py-lg-5 py-3 footer_border">
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./assets/images/zina-logo.png"
+                            class="img-fluid mb-3" alt="zina">
+                        <p>Lorem Ipsum is simply dummy <br>
+                            text of the printing and
+                            type <br> setting industry</p>
+                    </div>
+                    <div class="col-md-3 my-3">
+                        <h4 class="fw-bold mb-3 mt-lg-5">Contact Us</h4>
+                        <p class="mb-1"><span
+                                class="fw-bold">Address:</span><span
+                                class="ms-1">18 Green Tower, Street Name New
+                                York City, USA </span></p>
+                        <p class="mb-1"><span class="fw-bold">Phone:</span><a
+                                href="tel:+88 669 658 6586"
+                                class="ms-1 text-dark">+88 669 658 6586 </a></p>
+                        <p><span class="fw-bold">Email:</span><a
+                                href="mailto:info1234@email.com"
+                                class="ms-1 text-dark">info1234@email.com
+                            </a></p>
+                    </div>
+                    <div class="col-md-3 col-6 my-lg-3">
+                        <h4 class="fw-bold mb-3 mt-lg-5">Quick Links</h4>
+                        <ul class="list-unstyled p-0">
+                            <li>
+                                <a class="text-dark " href="#">HOME</a>
+                            </li>
+                            <li>
+                                <a class="text-dark " href="#">ABOUT</a>
+                            </li>
+                            <li>
+                                <a class="text-dark " href="#">SERVICE</a>
+                            </li>
+                            <li>
+                                <a class="text-dark " href="#">SHOP</a>
+                            </li>
+                            <li>
+                                <a class="text-dark " href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-6 my-lg-3">
+                        <h4 class="fw-bold mb-3 mt-lg-5">Social Links</h4>
+                        <ul
+                            class="footer_social_media d-flex align-items-center gap-3 p-0 list-unstyled mt-3">
+                            <li
+                                class="footer_social_media_item footer_social_media_item_fb"><a
+                                    href="#">
+                                    <div
+                                        class="footer_social_media_link flex items-center"><i
+                                            class="fa-brands fa-facebook-f footer_social_media_link_icone"></i></div>
+                                </a></li>
+                            <li
+                                class="footer_social_media_item footer_social_media_item_twt"><a
+                                    href="#">
+                                    <div
+                                        class="footer_social_media_link flex items-center"><i
+                                            class="fa-brands fa-youtube footer_social_media_link_icone"></i></div>
+                                </a></li>
+                            <li
+                                class="footer_social_media_item footer_social_media_item_inst"><a
+                                    href="#">
+                                    <div
+                                        class="footer_social_media_link flex items-center"><i
+                                            class="fa-brands fa-instagram footer_social_media_link_icone"></i></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-end py-3 px-lg-0 px-3">
+                <a href="#" class="text-dark">Terms of service </a>
+                <span class="mx-1">|</span>
+                <a href="#" class="text-dark">Privacy policy </a>
+            </div>
+        </footer>
+        <script src="./assets/js/jquery.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+            integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/header.js"></script>
+
+    </body>
+</html>
